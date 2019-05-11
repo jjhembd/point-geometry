@@ -1,7 +1,5 @@
 'use strict';
 
-module.exports = Point;
-
 /**
  * A standalone point geometry with useful accessor, comparison, and
  * modification methods.
@@ -14,7 +12,7 @@ module.exports = Point;
  * @example
  * var point = new Point(-77, 38);
  */
-function Point(x, y) {
+export function Point(x, y) {
     this.x = x;
     this.y = y;
 }

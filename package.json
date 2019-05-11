@@ -1,16 +1,12 @@
 {
-  "name": "@mapbox/point-geometry",
+  "name": "point-geometry",
   "version": "0.1.0",
   "description": "a point geometry with transforms",
   "main": "index.js",
-  "scripts": {
-    "test": "tape test.js",
-    "doc": "dox -r < index.js | doxme --readme > README.md",
-    "cov": "istanbul cover test.js && coveralls < ./coverage/lcov.info"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git@github.com:mapbox/point-geometry.git"
+    "url": "git+https://github.com/jjhembd/point-geometry.git"
   },
   "keywords": [
     "point",
@@ -20,14 +16,8 @@
   "author": "Tom MacWright",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mapbox/point-geometry/issues"
+    "url": "https://github.com/jjhembd/point-geometry/issues"
   },
-  "homepage": "https://github.com/mapbox/point-geometry",
-  "devDependencies": {
-    "coveralls": "~2.10.1",
-    "dox": "^0.6.1",
-    "doxme": "^1.8.2",
-    "istanbul": "~0.2.11",
-    "tape": "~2.13.3"
-  }
+  "homepage": "https://github.com/jjhembd/point-geometry",
+  "devDependencies": {}
 }
